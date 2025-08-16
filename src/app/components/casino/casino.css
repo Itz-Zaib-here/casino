@@ -1,0 +1,38 @@
+.popular {
+  padding: 20px;
+    background: var(--bg-sidebar);
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.popular h2 {
+  color: var(--highlight);
+  margin-bottom: 10px;
+  width: 800px;
+    background: var(--bg-cards);
+
+}
+.games {
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+    
+  width: 100%;
+ 
+  overflow-x: auto;
+}
+.games div {
+  background: var(--bg-card);
+  min-width: 140px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.games div:hover {
+  background: var(--btn-purple);
+  transform: scale(1.05);
+}

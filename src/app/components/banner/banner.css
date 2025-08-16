@@ -1,0 +1,41 @@
+.banners {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+
+.banners div {
+  height: 150px;
+  background: var(--btn-red);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.banners div img{
+  height: 150px;
+  background: var(--btn-red);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banners div:nth-child(2) {
+  background: var(--btn-purple);
+}
+.banners div:nth-child(3) {
+  background: var(--btn-green);
+}
+
+.banners div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}

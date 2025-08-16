@@ -1,0 +1,30 @@
+.aura {
+  width: 200px;
+  background: var(--bg-sidebar);
+  padding: 15px;
+  position: sticky;
+}
+.aura h3 {
+  color: var(--highlight);
+  margin-bottom: 15px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cards div {
+  background: var(--bg-card);
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cards div:hover {
+  background: var(--btn-purple);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}

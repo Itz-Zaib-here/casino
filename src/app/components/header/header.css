@@ -1,0 +1,48 @@
+.header {
+  background: var(--bg-sidebar);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.nav-buttons button {
+  background: var(--btn-purple);
+  border: none;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-buttons button:hover {
+  background: #9a3dd1;
+  transform: scale(1.05);
+}
+
+.actions input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn-red {
+  background: var(--btn-red);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.btn-green {
+  background: var(--btn-green);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

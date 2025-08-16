@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* 🎨 Color Theme */
+:root {
+  --bg-main: #1c0f2d;
+  --bg-sidebar: #2d1244;
+  --bg-card: #3b1a59;
+  --btn-purple: #7a1db8;
+  --btn-red: #e53935;
+  --btn-green: #43a047;
+  --highlight: #ff4081;
+}
+
+/* 🌍 Base Layout */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-main);
+  color: white;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+/* 🎡 Scrollbar */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--btn-purple);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9a3dd1;
+}
