@@ -6,9 +6,15 @@
   flex-direction: column;
   gap: 15px;
   position: static;
-  
-}
 
+}
+.menu{
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #000;
+    color: white;
+    text-align: center;
+}
 .sidebar .logo {
   display: block;
   margin: 0 auto 20px;
@@ -40,4 +46,11 @@
   background: #17071D;
   padding: 15px;
   border-radius: 10px;
+}
+
+
+@media  (max-width:600px) {
+    #sidebar{
+        display: none;
+    }
 }
